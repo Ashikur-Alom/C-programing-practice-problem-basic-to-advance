@@ -5,9 +5,7 @@ long toBin(int);
 int main()
 {
     long bno;
-    int dno;
-	printf("\n\n Function : convert decimal to binary :\n");
-	printf("-------------------------------------------\n");    
+    int dno; 
     printf(" Input any decimal number : ");
     scanf("%d",&dno);
     bno = toBin(dno);
@@ -27,3 +25,4 @@ long toBin(int dno)
     }
     return bno;
 }
+
