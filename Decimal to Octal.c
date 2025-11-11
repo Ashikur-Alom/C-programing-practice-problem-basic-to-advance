@@ -5,9 +5,7 @@ long decimailToOctal(int decimalNum);
 int main()
 {
     long octal;
-    int decimalNum;
-	printf("\n\n Function : convert decimal to octal :\n");
-	printf("-------------------------------------------\n");    
+    int decimalNum;   
     printf(" Input any decimal number : ");
     scanf("%d",&decimalNum);
     octal = decimailToOctal(decimalNum);
@@ -27,3 +25,4 @@ long decimailToOctal(int decimalNum)
     }
     return octal;
 }
+
